@@ -1,4 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700&family=DM+Sans:opsz,wght@9..40,300;9..40,500;9..40,600;9..40,700&display=swap");
+
 body {
   background-color: hsl(243, 96%, 9%);
   padding: 2em;
+  color: hsl(0, 0%, 100%);
+  font-family: var(--font-body);
+  font-size: 18px;
+}
+
+input,
+button,
+select,
+textarea {
+  font: inherit;
+}
+
+.font-display {
+  font-family: var(--font-display);
 }
